@@ -1,0 +1,50 @@
+@media only screen and (max-width: 576px){
+.hl_inner{
+    width: 80%;
+}
+.menu a{
+    font-size: 10px;
+}
+.banner_top {
+    width: 42%;
+}
+.banner_img{
+    width: auto;
+}
+.banner, .three_divs{
+    padding: 22px 0;
+}
+.divs_inner, .thInner{
+    flex-wrap: wrap;
+}
+.three_inner{
+    width: 98%;
+    margin-bottom: 26px;
+}
+.th_content{
+    width: 96%;
+    margin-bottom: 36px;
+}
+.thContent h4{
+    width: 88%;
+}
+.simplyInner{
+    padding-bottom: 0;
+}
+.simply_left, .simply_right{
+    width: 98%;
+    margin-bottom: 30px;
+}
+.thLink{
+    margin:0 0 0 29px;
+}
+.innerRight h2{
+    font-size: 16px;
+}
+.innerRight p{
+    font-size: 10px;
+}
+.footer_bg{
+    padding: 20px 0;
+}
+}

@@ -100,7 +100,8 @@ a{
 .divs_inner{
     width: 90%;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 33.333333% 33.333333% 33.333333%;
+    overflow: hidden;
     margin: 0 auto;
 }
 .three_inner{

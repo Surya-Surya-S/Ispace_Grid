@@ -159,17 +159,14 @@ a{
 .thInner{
     width: 87%;
     display: grid;
-    grid-template-columns: auto 33% 32%;
+    grid-template-columns: 33.333333% 33.333333% 33.333333%;
     border-bottom: 1px solid #f1f1f1;
     margin: 0 auto;
+    gap: 18px;
 }
 .th_content{
     text-align: left;
     padding-bottom: 38px;
-}
-.th_content:nth-child(3){
-    width: 90%;
-    margin: 0 auto;
 } 
 .th_para h2{
     font-size: 32px;
@@ -201,7 +198,7 @@ a{
     margin-bottom: 10px;
 }
 .th_content:nth-child(3) p{
-    width: 94%;
+    width: 88%;
 } 
 .thLink a{
     font-size: 16px;
@@ -224,7 +221,7 @@ a{
 .simplyInner{
     width: 87%;
     grid-template-columns: auto auto;
-    gap: 40px;
+    column-gap: 40px;
     border-bottom: 1px solid #f1f1f1;
     padding: 0 0 50px 0;
     margin: 0 auto;
@@ -249,7 +246,7 @@ a{
     padding: 26px 18px 6px 18px;
 }
 .innerRight h2{
-    font-size: 22px;
+    font-size: 18px;
     line-height: 32px;
     font-family: "Arial";
     font-weight: normal;
